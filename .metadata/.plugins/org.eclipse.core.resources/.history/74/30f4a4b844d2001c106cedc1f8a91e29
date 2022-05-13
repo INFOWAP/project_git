@@ -1,0 +1,27 @@
+package arrays;
+
+public class ArraysLoiane {
+
+	public static void main(String[] args) {
+		
+		//Criando a array:
+		double [] temperaturas = new double[365];
+		
+		//Inserindo valores nos elementos:
+		temperaturas [0] = 31.3;
+		temperaturas [1] = 32;
+		temperaturas [2] = 33.7;
+		temperaturas [3] = 34;
+		temperaturas [4] = 33.1;
+		
+		//Recuperando valores da array:
+		System.out.println("O valor da temperatura do 3ª dia é: "+ temperaturas[2]);
+		
+		//Consultando o tamanho do array:
+		System.out.println("O tamanho do é: "+ temperaturas.length);
+		
+		System.out.println("Todos os valores do array: ");
+
+	}
+
+}
